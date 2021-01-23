@@ -9,7 +9,7 @@
   "author": "vikram",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    
   },
   "dependencies": {
     "express": "^4.17.1"
