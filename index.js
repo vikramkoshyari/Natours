@@ -5,14 +5,14 @@ var port = process.env.PORT
 if(port==null || port==''){
     port=8000
 }
-app.use(express.static(path.join(__dirname, '../NATOURS')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 
 app.get('/',(req,res)=>{
     res.sendFile(__dirname+'/index.html');
 })
 
-app.listen(port,()=>{
+app.listen(3000,()=>{
 
     console.log("at 3000");
 })
